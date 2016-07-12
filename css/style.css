@@ -1,0 +1,160 @@
+form{
+    
+    width: 100%;
+    margin:auto;
+    margin-top:0 !important;
+    background-color:  #e5f5f5; 
+    padding:0;
+    padding-top:15px;
+    padding-bottom:15px;
+    font-family: Arial;
+
+}
+label{
+  
+    color: #626262;
+    font-weight: bold;
+    font-size: 0.8em;
+
+}
+.form-list{
+   
+    width:222px;
+    margin: auto;
+    list-style: none;
+    
+}
+.form-input-box{
+    
+    margin-bottom:5px;;  
+    width: 200px;
+    
+}
+.form-input-box input{
+    
+    border: none;
+    width: 200px;
+    padding:10px;
+
+}
+.form-submit{
+    
+    margin-top:15px !important;
+    width: 220px !important;
+    background-color: #4b7aee;
+    color:white;
+    font-weight: bold;
+
+}
+.form-header{
+    
+    width: 100%;
+    margin:auto;
+    margin-bottom:0;
+    margin-top: 0;
+    padding:0;
+    background-color: #4767b7;
+
+}
+.form-header p{
+    
+    padding:15px;
+    margin:0;
+    margin-left: 20px; 
+    font-weight: bold;
+    font-family: Arial;
+    background-color: #4767b7;
+    color:white;
+    font-size: 1.2em;
+    
+}
+.required_info{
+
+    font-family: Arial;
+    font-size: 0.8em;
+    color: #626262;
+    padding-right: 40px;
+    text-align: right;
+
+}
+.form-box{
+    
+    margin:auto;
+    margin-top: 20px;
+    width: 550px;
+    -moz-box-shadow: 0 0 15px 2px #4767b7;
+    -webkit-box-shadow: 0 0 15px 2px #4767b7;
+    box-shadow: 0 0 15px 2px #4767b7;
+    
+}
+.msgBox{
+    
+    margin-bottom: 5px;
+    margin-top: 5px ;   
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
+    min-height: 30px;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 7px;
+    z-index: 60;        
+    position: relative;
+    display:none;
+    
+}
+.msgText{
+    
+    color:white;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 15px;
+
+}
+#msgBad{
+
+    background-color: #ff3300;
+	-moz-box-shadow: 0 0 15px 2px #ff3300;
+    -webkit-box-shadow: 0 0 15px 2px #ff3300;
+    box-shadow: 0 0 5px 2px #ff3300;
+
+}
+#msgGood{
+    
+    background-color: #00de37;
+	-moz-box-shadow: 0 0 5px 1px #00de37;
+    -webkit-box-shadow: 0 0 5px 1px #00de37;
+    box-shadow: 0 0 5px 1px #00de37;
+}
+.msgBoxClose img{
+
+    width: 100%;
+
+}
+a.msgBoxClose {
+
+    cursor: pointer;
+    float: right;
+    height: 25px;
+    width: 25px;
+    top: -8px;
+    right: -8px;
+    position: absolute;
+    z-index: 60;
+    
+}
+a.msgBoxClose:hover {
+
+    cursor: pointer;
+    float: right;
+    height: 27px;
+    width: 27px;
+    top: -9px;
+    right: -9px;
+    position: absolute;
+    z-index: 60;
+    
+}
